@@ -1,0 +1,131 @@
+body{
+  text-align: center;  
+}
+
+#top-column{
+  background-color: #161E54;
+}
+
+/* column-left */
+
+.colu-left{
+  background-color: #FF5C58;
+  text-align: center;
+}
+#level-title {
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  font-size: 5rem;
+  margin:  5%;
+  color: #fff;
+}
+
+
+#change-title{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  margin: 10% 5% 19% 5%;
+  color: #fff;
+}
+.left-foot{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1rem;
+  padding-top: 20%;
+  margin-bottom: 0;
+  color:#fff;
+}
+
+/* column-right */
+
+.colu-right{
+  text-align: center;
+  margin-bottom: 5rem;
+  padding-top: 3rem;
+}
+
+
+
+.bttn {
+  margin: 25px;
+  display: inline-block;
+  height: 170px;
+  width: 170px;
+  border: 7px solid black;
+  border-radius: 40%;
+}
+
+.bttn:hover{
+  transform: scale(1.1);
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+/* instructions */
+
+#instructions{
+  text-align: center;
+  background-color: #FFF8E5;
+}
+.inst-head{
+  padding: 4rem 0;
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  word-spacing: 1rem;
+}
+.inst{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  text-align: left;
+  padding-bottom: 1rem;
+}
+.inst-1{
+  padding: 0 15% 1%;
+}
+
+/* footer */
+#footer{
+  text-align: center;
+  background-color: #fff;
+}
+.foot-img{
+  padding: 7% 12px 2%;
+}
+.foot{
+  padding-bottom: 100px;
+  padding-top: 0;
+}
+#footer p{
+  color: #8f8f8f;
+}
+
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
